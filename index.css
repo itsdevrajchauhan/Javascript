@@ -1,0 +1,50 @@
+.addtocart{
+  background: yellow;
+  border-color: black;
+  border-radius: 12px;
+
+}
+
+.buynow{
+  background: orange;
+  border-color:black;
+  border-radius: 12px;
+
+}
+
+/*
+button{
+  background: pink;
+  padding: 4px ;
+  margin-top: 5px;
+  margin-left: 6px;
+  border-radius: 30px;
+
+}
+
+
+.buttonwala{
+  background: fixed;
+  border-radius: 30px;
+
+
+
+}
+
+
+*/
+
+
+#loading{
+  background:orange;
+  
+
+
+
+}
+  
+.loading{
+  background: yellow;
+  
+}
+
