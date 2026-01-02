@@ -50,8 +50,12 @@ console.log(`cart Quantity +3 : ${cartQuantity}`);
   +4
 </button>
 <button onclick="
-cartQuantity+=5;
+if(cartQuantity+1> 10){
+ alert('full quantitiy');
+}else{
+   cartQuantity+=5;
 console.log(`cart Quantity +5 : ${cartQuantity}`);
+}
 
 
 ">+5</button>
@@ -63,8 +67,12 @@ console.log(`cart Quantity : ${cartQuantity} `);
 
 ">Reset Cart</button>
 <button onclick="
-cartQuantity--;
+if(cartQuantity=== 0){
+  alert('no items left to remove');
+}else{
+  cartQuantity--;
 console.log(`cart Quantitiy -1 : ${cartQuantity}`);
+}
 
 "
 >Remove from cart</button>
