@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <title>objects</title>
+
+
+  <body>
+    
+
+
+
+
+  </body>
+
+ 
+
+
+
+  <script>
+  
+  /*
+
+const product = {
+  name : 'socks',
+  price : 233,
+
+
+};
+console.log(product);
+console.log(product.name);
+console.log(product.price);
+product.name = 'cotton boy';
+
+console.log(product.name);
+console.log(product);
+
+
+
+
+const product2  = {
+
+  name: 'shrit',
+  'dilivery-time': '1 day',
+  rating: {
+    stars: 4.3,
+    count :87
+  },
+  fun: function fucntion1(
+  
+  ){
+
+    console.log('function inside object ');
+  }
+
+};
+
+console.log(product2);
+
+
+console.log(product2.name);
+
+console.log(product2['name']);
+
+console.log(product2.rating.stars);
+console.log(product2.fun());
+
+console.log(typeof console.log);
+JSON.stringify(product2);
+console.log(JSON.stringify(product2));
+
+JSON.parse(JSON.stringify(product2));
+console.log(JSON.parse(JSON.stringify(product2)));
+*/
+
+
+console.log('hello'.length);
+console.log('Hleoo'.toUpperCase());
+
+
+const object1 = {
+  msg : 'hello'
+};
+
+
+const object2  = object1;
+console.log(object2);
+
+object1.msg = 'good job';
+console.log(object2);
+
+console.log(object1);
+
+const object3 = {
+  msg : 'good job'
+};
+
+
+
+console.log(object3 === object1);
+console.log(object2 === object1);
+
+
+
+const object4 = {
+  msg : 'good job'
+  ,
+  price : 799
+};
+
+// const msg = object4.msg;  
+const {msg,price} =object4;   
+// shortcut of abouve //this is called desctructing 
+console.log(msg);
+console.log(price);
+
+
+const object5 ={
+//msg : msg  (if both are the same )
+  msg // shorthand Property (does the same work)
+  ,
+
+ // method: function fucntion2 (){
+ //   console.log('method');
+ // } down is  shorthand method   of commented method  same working but
+ 
+ 
+  method() {
+    console.log('method');
+  }
+
+}
+
+
+
+console.log(object5);
+object5.method();
+
+
+  </script>
+</head>
+</html>
