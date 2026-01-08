@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+<title>DOM</title>
+</head>
+
+
+
+<body>
+
+<button class="js-button-one">
+  9a
+</button>
+
+<button  onclick="
+document.querySelector('.js-button-two')
+.innerHTML = '9 b done';
+
+" class="js-button-two">9b</button>
+
+<br>
+
+
+
+<button  class="heads"
+onclick="
+   document.querySelector('.js-choice').innerHTML = `you choice is heads`;
+"
+
+> 
+  heads
+</button>
+<button  class="tails"
+ onclick="
+  document.querySelector('.js-choice').innerHTML =`you choice is tails `;
+ 
+ "
+>
+  tails
+</button>
+
+<p class="js-choice"> You Chose : </p>
+
+
+
+<input placeholder="name" class="text-name"  onkeydown="
+
+if (event.key === 'Enter'){
+submitName();
+  
+}" >
+
+<button 
+onclick="submitName()"
+>submit</button>
+<p  class="output"></p>
+
+
+
+
+
+<!-- thisi challenge Part -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+function submitName(){
+  const elementName = document.querySelector('.text-name');
+  document.querySelector('.output')
+        .innerHTML = `Your name is: ${elementName.value}`;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</script>
+
+
+
+
+
+</body>
+
+
+
+
+</html>
